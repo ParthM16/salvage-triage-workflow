@@ -12,4 +12,8 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL") or "llama3.2:3b"
 
 # Simulated assumptions (illustrative, NOT industry data)
 SEVERITY_FACTOR = {"minor": 0.12, "moderate": 0.40, "severe": 0.85}
-SALVAGE_FRACTION = {"minor": 0.60, "moderate": 0.40, "severe": 0.25}
+SALVAGE_FRACTION = {
+    "minor": 0.70,
+    "moderate": 0.50,
+    "severe": 0.25,
+}

@@ -8,3 +8,5 @@ __pycache__/
 models/artifacts/*.joblib
 models/artifacts/vision_checkpoint/
 .DS_Store
+PROJECT_2_MASTER_SPEC.md
+PRD.md
