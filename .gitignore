@@ -1,0 +1,10 @@
+.env
+venv/
+data/damage_dataset/
+data/used_cars.csv
+*.db
+__pycache__/
+.pytest_cache/
+models/artifacts/*.joblib
+models/artifacts/vision_checkpoint/
+.DS_Store
